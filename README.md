@@ -5,14 +5,6 @@ A demonstration of this exercise is available at [https://youtu.be/50En1KTlLKA](
 
 ---
 
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-06a-Animation. Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name. Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-In the Blender folder, you will see two .blend files. We will use these files to practice adding armatures to models.
-
----
-
 In an effort to make this exercise more manageable, I will offer extra credit for adding an armature to RagDoll.blend, following the instruction/example found at [https://youtu.be/YZikII-uSis](https://youtu.be/YZikII-uSis). It is a little difficult to follow, so take it slowly and pause frequently. Export the model as a glTF 2.0 file: Assets/RagDoll.glb and import it as a scene into Godot, and set the translation.x = 8.
 
 If you complete the extra credit, indicate that in the README.md before turning in the project.
@@ -102,5 +94,4 @@ None
 None
 
 ## Created by 
-Jason Francis
-```
+Gwen Hall
