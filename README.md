@@ -1,28 +1,3 @@
-# Exercise-06a-Animation
-Exercise for MSCH-C220, 6 April 2021
-
-A demonstration of this exercise is available at [https://youtu.be/50En1KTlLKA](https://youtu.be/50En1KTlLKA)
-
----
-
-In an effort to make this exercise more manageable, I will offer extra credit for adding an armature to RagDoll.blend, following the instruction/example found at [https://youtu.be/YZikII-uSis](https://youtu.be/YZikII-uSis). It is a little difficult to follow, so take it slowly and pause frequently. Export the model as a glTF 2.0 file: Assets/RagDoll.glb and import it as a scene into Godot, and set the translation.x = 8.
-
-If you complete the extra credit, indicate that in the README.md before turning in the project.
-
----
-
-Open Blender/Rain.blend in Blender. Under Edit->Preferences, Add-ons, make sure Rigging: Rigify is selected.
-
-Press shift-A to add a element. Select Armature->Human (Meta-rig).
-
-In the Transform Pivot Point menu (in the middle of the tool bar), select 3D Cursor.
-
-Select the Armature. Go into Edit mode (by pressing Tab) and press S to scale. Match the eyes of the armature to the model.
-
-In the Options menu (right side of the toolbar), check X-Axis Mirror.
-
-Carefully, and methodically, line up the armature inside the model. The hands and fingers will require the most effort. Wireframe mode will probably help.
-
 When you are done, go to Object mode. In the Scene panel, select the GEO_ model pieces (holding shift or Command), until they are all selected. Finally, select metarig. Then press ctrl-P. Select Armature Deform->With Automatic Weights.
 
 You can check that the bones are connected to the model by entering Pose Mode and grabbing (G) the bones. The model should deform accordingly.
@@ -61,17 +36,7 @@ In the Player.gd script, on line 25, add the following:
 
 ```
 	$AnimationTree.set("parameters/Idle_Walk/blend_amount", current_speed/max_speed) 
-```
 
-Test the program to make sure the player can now animate while walking.
-
----
-
-Quit Godot. In GitHub desktop, add a summary message, commit your changes and push them back to GitHub. If you return to and refresh your GitHub repository page, you should now see your updated files with the time when they were changed.
-
-Now edit the README.md file. When you have finished editing, commit your changes, and then turn in the URL of the main repository page (https://github.com/[username]/Exercise-06a-Animation) on Canvas.
-
-The final state of the file should be as follows (replacing the "Created by" information with your name):
 ```
 # Exercise-06a-Animation
 Exercise for MSCH-C220, 6 April 2021
